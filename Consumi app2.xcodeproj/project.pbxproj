@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C36FBFA24201E3B00A0BB48 /* RegisterFoodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C36FBF924201E3B00A0BB48 /* RegisterFoodController.swift */; };
+		0C36FBFC2421065E00A0BB48 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C36FBFB2421065E00A0BB48 /* Database.swift */; };
+		0C732DA824241DCE0073E13A /* UserDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C732DA724241DCE0073E13A /* UserDataController.swift */; };
 		9FD2116F241A516500097EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD2116E241A516500097EE5 /* AppDelegate.swift */; };
 		9FD21171241A516500097EE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD21170241A516500097EE5 /* SceneDelegate.swift */; };
 		9FD21173241A516500097EE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD21172241A516500097EE5 /* ViewController.swift */; };
 		9FD21176241A516500097EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD21174241A516500097EE5 /* Main.storyboard */; };
 		9FD21178241A516600097EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FD21177241A516600097EE5 /* Assets.xcassets */; };
 		9FD2117B241A516600097EE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD21179241A516600097EE5 /* LaunchScreen.storyboard */; };
+		9FD21183241A710100097EE5 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD21182241A710100097EE5 /* Food.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C36FBF924201E3B00A0BB48 /* RegisterFoodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFoodController.swift; sourceTree = "<group>"; };
+		0C36FBFB2421065E00A0BB48 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		0C732DA724241DCE0073E13A /* UserDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataController.swift; sourceTree = "<group>"; };
 		9FD2116B241A516500097EE5 /* Consumi app2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Consumi app2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD2116E241A516500097EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FD21170241A516500097EE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		9FD21177241A516600097EE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FD2117A241A516600097EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FD2117C241A516600097EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD21182241A710100097EE5 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		9FD2116D241A516500097EE5 /* Consumi app2 */ = {
 			isa = PBXGroup;
 			children = (
+				9FD21182241A710100097EE5 /* Food.swift */,
 				9FD2116E241A516500097EE5 /* AppDelegate.swift */,
 				9FD21170241A516500097EE5 /* SceneDelegate.swift */,
 				9FD21172241A516500097EE5 /* ViewController.swift */,
@@ -63,6 +72,9 @@
 				9FD21177241A516600097EE5 /* Assets.xcassets */,
 				9FD21179241A516600097EE5 /* LaunchScreen.storyboard */,
 				9FD2117C241A516600097EE5 /* Info.plist */,
+				0C36FBF924201E3B00A0BB48 /* RegisterFoodController.swift */,
+				0C36FBFB2421065E00A0BB48 /* Database.swift */,
+				0C732DA724241DCE0073E13A /* UserDataController.swift */,
 			);
 			path = "Consumi app2";
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C36FBFC2421065E00A0BB48 /* Database.swift in Sources */,
+				0C36FBFA24201E3B00A0BB48 /* RegisterFoodController.swift in Sources */,
 				9FD21173241A516500097EE5 /* ViewController.swift in Sources */,
+				9FD21183241A710100097EE5 /* Food.swift in Sources */,
 				9FD2116F241A516500097EE5 /* AppDelegate.swift in Sources */,
 				9FD21171241A516500097EE5 /* SceneDelegate.swift in Sources */,
+				0C732DA824241DCE0073E13A /* UserDataController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
