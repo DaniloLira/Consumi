@@ -71,6 +71,7 @@ class UserDataController: UIViewController {
                 break
         }
         
+        UserDefaults.standard.set(result, forKey: "calorieGoal")
         return result
     }
 }

@@ -31,12 +31,17 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.calorieGoalLabel.text = String(round(self.calorieGoal!))
+        self.calorieGoal = round(UserDefaults.standard.value(forKey: "calorieGoal") as? Double ?? 0)
+        
+        if let calorie = self.calorieGoal {
+            self.calorieGoalLabel.text = String(calorie)
+        }
+        
         foodPicker.delegate = self
         foodPicker.dataSource = self
         self.foodPicker.isHidden = true
         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
-        
+    
         
         // Do any additional setup after loading the view.
     }
