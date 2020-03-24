@@ -23,7 +23,7 @@
 		0C36FBF924201E3B00A0BB48 /* RegisterFoodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFoodController.swift; sourceTree = "<group>"; };
 		0C36FBFB2421065E00A0BB48 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		0C732DA724241DCE0073E13A /* UserDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataController.swift; sourceTree = "<group>"; };
-		9FD2116B241A516500097EE5 /* Consumi app2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Consumi app2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD2116B241A516500097EE5 /* Consumi .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Consumi .app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD2116E241A516500097EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FD21170241A516500097EE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9FD21172241A516500097EE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		9FD21162241A516500097EE5 = {
 			isa = PBXGroup;
 			children = (
-				9FD2116D241A516500097EE5 /* Consumi app2 */,
+				9FD2116D241A516500097EE5 /* Consumi */,
 				9FD2116C241A516500097EE5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +56,12 @@
 		9FD2116C241A516500097EE5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9FD2116B241A516500097EE5 /* Consumi app2.app */,
+				9FD2116B241A516500097EE5 /* Consumi .app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9FD2116D241A516500097EE5 /* Consumi app2 */ = {
+		9FD2116D241A516500097EE5 /* Consumi */ = {
 			isa = PBXGroup;
 			children = (
 				9FD21182241A710100097EE5 /* Food.swift */,
@@ -76,15 +76,15 @@
 				0C36FBFB2421065E00A0BB48 /* Database.swift */,
 				0C732DA724241DCE0073E13A /* UserDataController.swift */,
 			);
-			path = "Consumi app2";
+			path = Consumi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9FD2116A241A516500097EE5 /* Consumi app2 */ = {
+		9FD2116A241A516500097EE5 /* Consumi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FD2117F241A516600097EE5 /* Build configuration list for PBXNativeTarget "Consumi app2" */;
+			buildConfigurationList = 9FD2117F241A516600097EE5 /* Build configuration list for PBXNativeTarget "Consumi" */;
 			buildPhases = (
 				9FD21167241A516500097EE5 /* Sources */,
 				9FD21168241A516500097EE5 /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = "Consumi app2";
+			name = Consumi;
 			productName = "Consumi app2";
-			productReference = 9FD2116B241A516500097EE5 /* Consumi app2.app */;
+			productReference = 9FD2116B241A516500097EE5 /* Consumi .app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9FD21166241A516500097EE5 /* Build configuration list for PBXProject "Consumi app2" */;
+			buildConfigurationList = 9FD21166241A516500097EE5 /* Build configuration list for PBXProject "Consumi" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9FD2116A241A516500097EE5 /* Consumi app2 */,
+				9FD2116A241A516500097EE5 /* Consumi */,
 			);
 		};
 /* End PBXProject section */
@@ -302,13 +302,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KBDYNQ5FQB;
-				INFOPLIST_FILE = "Consumi app2/Info.plist";
+				INFOPLIST_FILE = Consumi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.academy.Consumi-app2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.Consumi;
+				PRODUCT_NAME = "Consumi ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -320,13 +320,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KBDYNQ5FQB;
-				INFOPLIST_FILE = "Consumi app2/Info.plist";
+				INFOPLIST_FILE = Consumi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.academy.Consumi-app2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.Consumi;
+				PRODUCT_NAME = "Consumi ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -335,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9FD21166241A516500097EE5 /* Build configuration list for PBXProject "Consumi app2" */ = {
+		9FD21166241A516500097EE5 /* Build configuration list for PBXProject "Consumi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FD2117D241A516600097EE5 /* Debug */,
@@ -344,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FD2117F241A516600097EE5 /* Build configuration list for PBXNativeTarget "Consumi app2" */ = {
+		9FD2117F241A516600097EE5 /* Build configuration list for PBXNativeTarget "Consumi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FD21180241A516600097EE5 /* Debug */,

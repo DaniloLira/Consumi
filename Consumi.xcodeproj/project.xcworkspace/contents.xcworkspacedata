@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Consumi app2.xcodeproj">
+      location = "self:/Users/danilolira/Documents/Projects/Consumi/Consumi.xcodeproj">
    </FileRef>
 </Workspace>
