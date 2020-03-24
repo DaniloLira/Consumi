@@ -10,26 +10,7 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-    var window: UIWindow?
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        self.window = UIWindow(frame: UIScreen.main.bounds)
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        var viewController: UIViewController
-
-        if (UserDefaults.standard.value(forKey: "calorieGoal") as? Double) == nil {
-            print("Teste")
-            viewController = storyboard.instantiateViewController(withIdentifier: "UserData")
-        } else {
-            viewController = storyboard.instantiateViewController(withIdentifier: "ViewController")
-            //String(UserDefaults.standard.value(forKey: "calorieGoal"))
-        }
-        
-        self.window?.rootViewController = viewController
-        self.window?.makeKeyAndVisible()
-        
         return true
     }
 
