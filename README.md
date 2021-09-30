@@ -40,7 +40,7 @@ O Consumi é meu primeiro aplicativo iOS e utilizei ele pra aprender diversos co
 
 | Home | Cadastrar | Registrar |
 |----------|----------|----------|
-| <img src="assets/home.png" alt="Tela Inicial" width="180.5" height="406">  |  <img src="assets/cadastrar.png" alt="Cadastrar refeicao" width="180.5" height="406">  |  <img src="assets/home.png" alt="Registrar alimento" width="180.5" height="406">  |
+| <img src="assets/home.png" alt="Tela Inicial" width="180.5" height="406">  |  <img src="assets/cadastrar.png" alt="Cadastrar refeicao" width="180.5" height="406">  |  <img src="assets/alimento.png" alt="Registrar alimento" width="180.5" height="406">  |
 
 
 ### Tecnologias utilizadas
